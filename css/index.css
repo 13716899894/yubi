@@ -1,0 +1,316 @@
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+header{
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    background:url(../img/nav_bg.jpg) repeat-x 0 0;
+}
+.logo{
+    width: 247px;
+    height: 100%;
+    position: absolute;
+    top: 0px ;
+    left: 0px;
+}
+.logo a{
+    width: 100%;
+    height: 100%;
+}
+.topNav{
+    width: 700px;
+    height: 100%;
+    margin: 0px auto;
+}
+.topNav a{
+    width: 70px;
+    height: 20px;
+    padding: 15px;
+    color: #9d9d9d;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    float: left;
+}
+.topNav a:hover{
+    color: white;
+}
+.store{
+    width: 38px;
+    margin-top: 5px;
+    height: 12.5px;
+    background: url(../img/store_logo.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    float: left;
+}
+.rightLogoDiv{
+    position: absolute;
+    top: 0px ;
+    right: 0px;
+}
+.uPlay{
+    height: 40px;
+    float: left;
+    padding: 5px 10px;
+    background: #206c9e;
+}
+.uPlay a{
+    width: 95px;
+    height: 40px;
+}
+.search{
+    width: 132px;
+    height: 50px;
+    float: left;
+}
+.search a{
+    width: 100%;
+    height: 100%;
+    background-color: #D0D0D0;
+    color: #171717;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+}
+.search a span{
+    font-size: 26px;
+}
+.scroll{
+    width: 100%;
+    height: 600px;
+    padding-top: 50px;
+    position: relative;
+    overflow: hidden;
+    background: url(../img/top-banner-bg.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.scrollCenter{
+    width: 1280px;
+    height: 100%;
+    margin: 0px auto;
+    position: relative;
+    overflow: hidden;
+}
+.scrollUl{
+    width: 900%;
+    height: 600px;
+    position: absolute;
+    left: 0px;
+}
+.scrollUl li{
+    width: 11.11111111111111%;
+    height: 600px;
+    float: left;
+}
+.scrollUl li a{
+    width: 100%;
+    height: 100%;
+}
+.btnUl{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -80px;
+}
+.btnUl li{
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    float: left;
+    border-radius: 50%;
+    background-color: #999999;
+}
+.leftBtn{
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    z-index: 9999;
+    margin-top: -30px;
+    background: url(../img/sprite-global.png) no-repeat;
+    background-position: 0px -293px;
+}
+.rightBtn{
+    right: 0px;
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    z-index: 9999;
+    margin-top: -30px;
+    background: url(../img/sprite-global.png) no-repeat;
+    background-position: 0px -234px;
+}
+.on{
+    background-color: #206c9e;
+}
+.main{
+    width: 100%;
+
+}
+.mainLeft{
+    width: 58.333333333333333333%;
+    float: left;
+}
+.leftTile{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: #3e61ad;
+}
+.leftTile h1{
+    font-size: 18px;
+    line-height: 50px;
+    float: left;
+    padding-left: 20px;
+}
+.leftTile a{
+    font-size: 18px;
+    color: white;
+    float: right;
+    width: 30%;
+    padding-left: 20px;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: top;
+    background-color:#363636;
+}
+.content{
+    border: 15px solid #2E2E2E;
+    background-color: #000;
+}
+.contentImg{
+    width: 33.33333333333%;
+    height: 190px;
+    float: left;
+}
+.rightTxt{
+    padding: 10px;
+    float: right;
+    line-height: 20px;
+    width: 63.666666666666666%;
+}
+.rightTxt a{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.rightTxt span{
+    color: #565656;
+    font-weight: bold;
+    font-size: 14px;
+}
+.rightTxt p{
+    color: #969696;
+    font-size: 14px;
+}
+.x{
+    border-top: none;
+}
+.mainRight{
+    width: 41.6666666666%;
+    height: 680px;
+    float: left;
+    overflow: hidden;
+    background-color: #7E95CB;
+}
+.centerDiv{
+    height: 580px;
+    margin: 25px 20px 0px;
+    background-color: #FFF;
+    padding: 25px 20px 20px;
+}
+.sall{
+    padding-left: 20px;
+    background-color: #3e61ad;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+}
+.earth{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: right;
+    margin-top: 10px;
+    background-color: #fff;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #3e61ad;
+    text-align: center;
+}
+.earth span{
+    line-height: 30px;
+
+}
+.allDiv{
+    width: 100%;
+    overflow: hidden;
+}
+.allMini{
+    width: 200%;
+}
+.allMini ul{
+    width: 50%;
+    float: left;
+}
+.allMini ul li{
+    width: 50%;
+    float: left;
+    position: relative;
+}
+.allMini ul li a{
+    width: 100%;
+    height: 26.8%;
+}
+.cover{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 95%;
+    padding-left: 5%;
+    height: 50px;
+    background-color: #000;
+    opacity: 0.85;
+}
+.cover h3{
+    font-size: 14px;
+    margin: 5px 0;
+    color: white;
+    font-weight: normal;
+}
+.cover p{
+    font-size: 12px;
+    color: red;
+    font-weight: bold;
+}
+.pointDiv{
+    margin-top: 10px;
+}
+.pointDiv a{
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    float: left;
+    border-radius: 50%;
+    background-color: #999;
+}
+.xian{
+    background: #b6b6b6;
+    margin-top: 2px;
+    color: #fff;
+    padding: 2px 5px;
+    font-size: 14px;
+}
